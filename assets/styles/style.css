@@ -1,0 +1,201 @@
+body, h1, h2, h3, h4, h5, h6, ul, ol{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+*{
+box-sizing: border-box;
+}
+
+.great-title h4{
+	font-size: 30px;
+	color: #fff;
+}
+
+a {
+text-decoration: none;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+li{
+	list-style-type: none;
+	margin: 15px;
+}
+
+.details__lists{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: space-between;
+}
+
+.details-list__field{
+	width: 50%
+	margin-right: 15px;
+	font-weight: 700;
+}
+
+.details-list__item{
+	width:50%;
+	/*padding-right: 15px;*/
+}
+
+.header {
+	background-color: #000;
+	height: 60px;
+}
+
+.header__container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	color: #fff;
+}
+
+.header__nav{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.header__link{
+	margin-right: 15px;
+}
+
+.header__img{
+	max-height: 60px;
+}
+
+.great-title{
+	height: 33vw;
+	background-image: url(./crab-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw, 33vh ;
+}
+
+.quote__kostya{
+	padding-left: 10px;
+	border-left: 4px red solid;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.quote__dali{
+	padding: 5px;
+	border: 2px black solid;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.desc__quotes{
+	margin-bottom: 30px;
+	line-height: 24px;
+	width: 60%;
+}
+
+.quote__author{
+	padding: 15px 0px;
+}
+
+.main__title{
+	border-bottom: 3px black solid;
+}
+
+.desc__info{
+	display: flex;
+	justify-content: space-between;
+	font-size: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	border-bottom: 3px black solid;
+	margin-top: 10px;
+}
+
+.desc__other{
+	display: flex;
+	justify-content: space-between;
+}
+
+.desc__place{
+	margin-right: 10px;
+}
+
+.great__time{
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+.quote__kinopoisk{
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.desc__important{
+	width: 1280px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.desc__speaker{
+	padding: 10px;
+	border: solid black 4px;
+	height: 130px;
+	
+}
+
+.speaker__title{
+	font-size: 26px;
+	font-weight: 800;
+}
+
+.speaker__photo{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px
+}
+
+.speaker__name{
+	font-weight: 700;
+}
+
+.speaker__card{
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.speaker__role{
+	margin-top: 5px
+}
+
+.role-list{
+	width: 50%;
+}
+
+.role-list__title{
+	font-weight: 700;
+}
+
+.detalis__more{
+	width: 1280px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid 2px black;
+}
+
+.great__name{
+	padding: 10px;
+}
+
+.great__time {
+	padding-top: 20px;
+}
