@@ -178,7 +178,7 @@ li{
 }
 
 .role-list{
-	width: 50%;
+	width: 49%;
 }
 
 .role-list__title{
@@ -187,9 +187,10 @@ li{
 
 .detalis__more{
 	width: 1280px;
+	/*height: 700px;*/
 	display: flex;
 	justify-content: space-between;
-	border-bottom: solid 2px black;
+	/*border-bottom: solid 2px black;*/
 }
 
 .great__name{
@@ -198,4 +199,13 @@ li{
 
 .great__time {
 	padding-top: 20px;
+}
+
+.info__list{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
 }
